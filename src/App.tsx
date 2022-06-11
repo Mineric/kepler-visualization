@@ -8,7 +8,7 @@ import { addDataToMap } from "kepler.gl/actions";
 import KeplerGl from "kepler.gl";
 import keplerGlReducer from "kepler.gl/reducers";
 
-import RoadMap from './RoadMap'
+import RoadMap from './roadMap'
 
 const reducers = combineReducers({
   keplerGl: keplerGlReducer
